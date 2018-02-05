@@ -67,7 +67,7 @@ $(function () {
          * the asynchronous execution.
          */
         it('has at least a single entry ', function (done) {
-            expect($('.entry').length).not.toBe(0);
+            expect($('.feed .entry').length).not.toBe(0);
             done();
         });
     });
